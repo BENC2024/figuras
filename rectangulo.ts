@@ -26,7 +26,7 @@ export class Rectangulo {
         return this.base*this.altura
     }
     public perimetro():number{
-        return 2*this.base + 2*this.altura
+        return (2*this.base + 2*this.altura)
     }
 
 } 

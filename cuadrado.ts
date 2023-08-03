@@ -15,7 +15,7 @@ export class Cuadrado {
     }
 
     public area():number{
-        return this.lado*this.lado
+        return this.lado**2
     }
     public perimetro():number{
         return 4*this.lado

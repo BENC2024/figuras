@@ -34,7 +34,14 @@ export class TrianguloRectangulo {
         return hipotenusa
     }
     public tipoTriangulo():string{
-        return "El triangulo es rectangulo ya que tiene 90 grados"
+        let mensaje = ""
+        if (this.base == this.altura) {
+            mensaje = "Es un triangulo rectangulo isóseles ya que sus dos catetos son iguales"
+        }
+        else{
+            mensaje = "Es un triangulo rectangulo escaleno ya que sus dos catetos son diferentes"
+        }
+        return mensaje
     }
 
 } 
