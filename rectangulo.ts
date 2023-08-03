@@ -22,10 +22,10 @@ export class Rectangulo {
         this.altura = altura
     }
 
-    public area():number{
+    public calcularArea():number{
         return this.base*this.altura
     }
-    public perimetro():number{
+    public calcularPerimetro():number{
         return (2*this.base + 2*this.altura)
     }
 

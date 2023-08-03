@@ -31,10 +31,10 @@ export class Rombo {
         this.diagonalMenor = diagonalMenor
     }
 
-    public area():number{
+    public calcularArea():number{
         return (this.diagonalMenor*this.diagonalMayor)/2
     }
-    public perimetro():number{
+    public calcularPerimetro():number{
         return 4*this.lado
     }
 

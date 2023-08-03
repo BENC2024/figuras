@@ -22,18 +22,18 @@ export class TrianguloRectangulo {
         this.altura = altura
     }
 
-    public area():number{
+    public calcularArea():number{
         return (this.base*this.altura)/2
     }
-    public perimetro():number{
-        let hipotenusa = this.hipotenusa()
+    public calcularPerimetro():number{
+        let hipotenusa = this.calcularHipotenusa()
         return this.base + this.altura + hipotenusa
     }
-    public hipotenusa():number{
+    public calcularHipotenusa():number{
         let hipotenusa = (this.base**2 + this.altura**2)**(1/2)
         return hipotenusa
     }
-    public tipoTriangulo():string{
+    public determinarTipoTriangulo():string{
         let mensaje = ""
         if (this.base == this.altura) {
             mensaje = "Es un triangulo rectangulo isóseles ya que sus dos catetos son iguales"

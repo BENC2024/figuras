@@ -49,10 +49,10 @@ export class Trapecio {
         this.baseMenor = baseMenor
     }
 
-    public area():number{
+    public calcularArea():number{
         return (this.baseMayor+this.baseMenor)*(this.altura/2)
     }
-    public perimetro():number{
+    public calcularPerimetro():number{
         return this.baseMayor+this.baseMenor+this.lado1+this.lado2
     }
 

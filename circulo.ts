@@ -14,10 +14,10 @@ export class Circulo {
         this.radio = radio
     }
 
-    public area():number{
+    public calcularArea():number{
         return (3.1416*(this.radio**2))
     }
-    public perimetro():number{
+    public calcularPerimetro():number{
         return (2)*(3.1416)*(this.radio)
     }
 

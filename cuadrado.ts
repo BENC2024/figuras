@@ -14,10 +14,10 @@ export class Cuadrado {
         this.lado = lado
     }
 
-    public area():number{
+    public calcularArea():number{
         return this.lado**2
     }
-    public perimetro():number{
+    public calcularPerimetro():number{
         return 4*this.lado
     }
 
